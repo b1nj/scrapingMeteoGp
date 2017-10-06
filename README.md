@@ -2,12 +2,13 @@
 
 Script php pour récupérer sur le site http://www.meteofrance.gp les vigilances météo des Antilles Française. 
 
-Les couleurs (verte, jaune, orange, rouge, violette, grise) et les types de vigilance (vent, vague, pluie, cyclone) sont récupérés à partir de l'aimage ci-dessous.
+Les couleurs (verte, jaune, orange, rouge, violette, grise) et les types de vigilance (vent, vague, pluie, cyclone) sont récupérés à partir de l'image ci-dessous.
 
 Ce script est utilisé pour le site http://www.alerte.mq/.
 
 ![Carte vigilance cyclone Irma](tests/datas/test4.png?raw=true)  
-*Carte Météo France pendant le cyclone Irma en septembre 2017* - http://www.meteofrance.gp/integration/sim-portail/generated/integration/img/vigilance/fr_99.gif
+*Carte Météo France pendant le cyclone Irma en septembre 2017*  
+http://www.meteofrance.gp/integration/sim-portail/generated/integration/img/vigilance/fr_99.gif
 
 ## Installation
 
@@ -24,7 +25,7 @@ Installation method via composer. Add this code in your composer.json.
 And execute this command :
 
 ```
-$ composer require bnj/scrapingMeteoGp
+$ composer require b1nj/scrapingMeteoGp
 ```
 
 ## Usage
