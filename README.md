@@ -12,20 +12,25 @@ http://www.meteofrance.gp/integration/sim-portail/generated/integration/img/vigi
 
 ## Installation
 
-Installation method via composer. Add this code in your composer.json.
+Installation method via composer. Add this minimum code in your composer.json file.
 
 ```
-"repositories": [
-    {
-        "type": "vcs",
-        "url":  "https://github.com/b1nj/scrapingMeteoGp.git"
-    }
-],
+{
+    "require": {
+        "b1nj/scrapingMeteoGp": "dev-master@dev"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/b1nj/scrapingMeteoGp.git"
+        }
+    ]
+}
 ```
 And execute this command :
 
 ```
-$ composer require b1nj/scrapingMeteoGp
+$ composer update
 ```
 
 ## Usage
@@ -40,9 +45,11 @@ require_once __DIR__ . '/vendor/autoload.php';
 use B1nj\ScrapingMeteoGp\Scraping;
 
 $zones = new Scraping();
-var_dump($zones);
+foreach ($zones as $zone => $vigilance) {
+    var_dump($zone, $vigilance);
+}
 ```
-To not load the image each time.
+To not load the image each time. Create a file with with in content date past like 2017-01-01 10:00:00.
 
 ```php
 $zones = new Scraping(null, 'tmp/meteogp_lastmodified.txt');
