@@ -6,8 +6,8 @@ Les couleurs (verte, jaune, orange, rouge, violette, grise) et les types de vigi
 
 Ce script est utilisé pour le site http://www.alerte.mq/.
 
-![Carte vigilance cyclone Irma](tests/datas/test4.png?raw=true)
-*Carte météo France pendant le cyclone Irma en septembre 2017 - http://www.meteofrance.gp/integration/sim-portail/generated/integration/img/vigilance/fr_99.gif *
+![Carte vigilance cyclone Irma](tests/datas/test4.png?raw=true)  
+*Carte Météo France pendant le cyclone Irma en septembre 2017* - http://www.meteofrance.gp/integration/sim-portail/generated/integration/img/vigilance/fr_99.gif
 
 ## Installation
 
