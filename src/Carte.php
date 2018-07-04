@@ -38,13 +38,13 @@ class Carte
     public function getZonesPointVigilance()
     {
         return [
-            'martinique' => [340, 357],
-            'guadeloupe' => [292, 235],
-            'st-martin' => [70, 44],
-            'guyane-ne' => [581, 488],
-            'guyane-nw' => [539, 476],
-            'guyane-centre' => [523, 529],
-            'guyane-sud' => [512, 565],
+            'martinique' => [338, 372],
+            'guadeloupe' => [289, 228],
+            'st-martin' => [65, 44],
+            'guyane-ne' => [589, 483],
+            'guyane-nw' => [528, 447],
+            'guyane-centre' => [550, 512],
+            'guyane-sud' => [533, 550],
         ];
     }
 
