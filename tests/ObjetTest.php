@@ -11,18 +11,13 @@ class ObjetTest extends PHPUnit_Framework_TestCase
 
     protected $zones = [
         [[0,0], [29,19], 'vague'],
-        [[30,0], [59,19], 'vague'],
+        /*[[30,0], [59,19], 'vague'],
         [[60,0], [89,19], 'vague'],
-        [[90,0], [119,19], 'vague'],
+        [[90,0], [119,19], 'vague'],*/
         [[0,20], [29,49], 'vent'],
-        [[30,20], [59,49], 'vent'],
-        [[60,20], [89,49], 'vent'],
-        //[[90,20], [129,49], 'vent'],
         [[0,50], [29,74], 'pluie'],
-        [[30,50], [59,74], 'pluie'],
-        //[[60,50], [89,74], 'pluie'],
-        [[0,75], [29,104], 'cyclone'],
         [[30,75], [59,104], 'cyclone'],
+        [[60,75], [89,104], 'cyclone'],
     ];
 
     public function testMatches()

@@ -9,61 +9,19 @@ class CarteTest extends PHPUnit_Framework_TestCase
 {
 
     protected $cartes = [
-        'test.png' => [
-            'martinique' => ['vigilance' => 'verte', 'types' => ['vague']],
-            'guadeloupe' => ['vigilance' => 'verte', 'types' => []],
-            'st-martin' => ['vigilance' => 'verte', 'types' => []],
-            'guyane-ne' => ['vigilance' => 'jaune', 'types' => ['vague']],
-            'guyane-nw' => ['vigilance' => 'jaune', 'types' => ['vague']],
-            'guyane-centre' => ['vigilance' => 'verte', 'types' => []],
-            'guyane-sud' => ['vigilance' => 'verte', 'types' => []],
-            'st-barth' => ['vigilance' => 'verte', 'types' => []],
-        ],
-        'test2.png' => [
-            'martinique' => ['vigilance' => 'jaune', 'types' => ['vague']],
-            'guadeloupe' => ['vigilance' => 'jaune', 'types' => ['vent','pluie','cyclone']],
-            'st-martin' => ['vigilance' => 'jaune', 'types' => ['vague']],
-            'guyane-ne' => ['vigilance' => 'jaune', 'types' => ['vague']],
-            'guyane-nw' => ['vigilance' => 'jaune', 'types' => ['vague']],
-            'guyane-centre' => ['vigilance' => 'verte', 'types' => []],
-            'guyane-sud' => ['vigilance' => 'verte', 'types' => []],
-            'st-barth' => ['vigilance' => 'jaune', 'types' => ['vague']],
-        ],
-        'test3.png' => [
-            'martinique' => ['vigilance' => 'jaune', 'types' => ['vague']],
-            'guadeloupe' => ['vigilance' => 'orange', 'types' => ['vent','vague','pluie']],
-            'st-martin' => ['vigilance' => 'rouge', 'types' => ['cyclone']],
+        'test7.png' => [
+            'martinique' => ['vigilance' => 'jaune', 'types' => ['vent', 'pluie']],
+            'guadeloupe' => ['vigilance' => 'jaune', 'types' => ['cyclone']],
+            'st-martin' => ['vigilance' => 'jaune', 'types' => [/*'vent', 'pluie'*/]],
             'guyane-ne' => ['vigilance' => 'verte', 'types' => []],
             'guyane-nw' => ['vigilance' => 'verte', 'types' => []],
             'guyane-centre' => ['vigilance' => 'verte', 'types' => []],
             'guyane-sud' => ['vigilance' => 'verte', 'types' => []],
-            'st-barth' => ['vigilance' => 'rouge', 'types' => ['cyclone']],
+            'st-barth' => ['vigilance' => 'jaune', 'types' => [/*'vent', 'pluie'*/]],
         ],
-        'test4.png' => [
-            'martinique' => ['vigilance' => 'jaune', 'types' => ['vague','pluie']],
-            'guadeloupe' => ['vigilance' => 'jaune', 'types' => ['vague','pluie']],
-            'st-martin' => ['vigilance' => 'violette', 'types' => ['cyclone']],
-            'guyane-ne' => ['vigilance' => 'verte', 'types' => []],
-            'guyane-nw' => ['vigilance' => 'verte', 'types' => []],
-            'guyane-centre' => ['vigilance' => 'verte', 'types' => []],
-            'guyane-sud' => ['vigilance' => 'verte', 'types' => []],
-            'st-barth' => ['vigilance' => 'violette', 'types' => ['cyclone']],
-        ],
-        /*
-         TODO : impossible de rechercher un objet sur la zone guyane-centre et sud (couleur de fond pas bleu)
-         'test5.png' => [
-            'martinique' => ['vigilance' => 'verte', 'types' => []],
-            'guadeloupe' => ['vigilance' => 'verte', 'types' => []],
-            'st-martin' => ['vigilance' => 'verte', 'types' => []],
-            'guyane-ne' => ['vigilance' => 'jaune', 'types' => ['pluie']],
-            'guyane-nw' => ['vigilance' => 'verte', 'types' => []],
-            'guyane-centre' => ['vigilance' => 'jaune', 'types' => ['pluie']],
-            'guyane-sud' => ['vigilance' => 'verte', 'types' => []],
-            'st-barth' => ['vigilance' => 'verte', 'types' => []],
-        ],*/
-        'test6.png' => [
-            'martinique' => ['vigilance' => 'jaune', 'types' => ['vent','vague','pluie']],
-            'guadeloupe' => ['vigilance' => 'orange', 'types' => ['cyclone']],
+        'test8.png' => [
+            'martinique' => ['vigilance' => 'jaune', 'types' => ['cyclone']],
+            'guadeloupe' => ['vigilance' => 'jaune', 'types' => ['cyclone']],
             'st-martin' => ['vigilance' => 'jaune', 'types' => ['cyclone']],
             'guyane-ne' => ['vigilance' => 'verte', 'types' => []],
             'guyane-nw' => ['vigilance' => 'verte', 'types' => []],

@@ -15,15 +15,16 @@ class Objet implements Iterator
         return [
             // Vent
             'vent' => [
-                ['position' => [18, 1], 'couleur' => ['red' => '30', 'green' => '40', 'blue' => '50']],
-                ['position' => [18, 18], 'couleur' => ['red' => '30', 'green' => '40', 'blue' => '50']],
-                ['position' => [14, 12], 'couleur' => ['red' => '163', 'green' => '211', 'blue' => '243']],
-                ['position' => [12, 6], 'couleur' => ['red' => '163', 'green' => '211', 'blue' => '243']],
-                ['position' => [7, 7], 'couleur' => ['red' => '160', 'green' => '207', 'blue' => '238']],
-                ['position' => [7, 3], 'couleur' => ['red' => '160', 'green' => '207', 'blue' => '238']],
-                ['position' => [14, 3], 'couleur' => ['red' => '0', 'green' => '0', 'blue' => '0']],
-                ['position' => [9, 6], 'couleur' => ['red' => '0', 'green' => '0', 'blue' => '0']],
-                ['position' => [4, 7], 'couleur' => ['red' => '0', 'green' => '0', 'blue' => '0']],
+                ['position' => [17, 4], 'couleur' => ['red' => '19', 'green' => '19', 'blue' => '0']],
+                ['position' => [15, 6], 'couleur' => ['red' => '3', 'green' => '3', 'blue' => '0']],
+                ['position' => [10, 7], 'couleur' => ['red' => '0', 'green' => '0', 'blue' => '0']],
+                ['position' => [13, 7], 'couleur' => ['red' => '255', 'green' => '255', 'blue' => '255']],
+                ['position' => [15, 8], 'couleur' => ['red' => '0', 'green' => '0', 'blue' => '0']],
+                ['position' => [7, 9], 'couleur' => ['red' => '0', 'green' => '0', 'blue' => '0']],
+                ['position' => [9, 9], 'couleur' => ['red' => '254', 'green' => '254', 'blue' => '254']],
+                ['position' => [4, 10], 'couleur' => ['red' => '148', 'green' => '148', 'blue' => '129']],
+                ['position' => [17, 11], 'couleur' => ['red' => '25', 'green' => '25', 'blue' => '0']],
+                ['position' => [17, 18], 'couleur' => ['red' => '33', 'green' => '33', 'blue' => '0']],
             ],
             // Vague
             'vague' => [
@@ -37,20 +38,23 @@ class Objet implements Iterator
             ],
             // Pluie
             'pluie' => [
-                ['position' => [7, 2], 'couleur' => ['red' => '13', 'green' => '13', 'blue' => '13']],
-                ['position' => [3, 5], 'couleur' => ['red' => '3', 'green' => '3', 'blue' => '3']],
-                ['position' => [3, 12], 'couleur' => ['red' => '0', 'green' => '0', 'blue' => '0']],
-                ['position' => [12, 11], 'couleur' => ['red' => '98', 'green' => '110', 'blue' => '118']],
-                ['position' => [16, 6], 'couleur' => ['red' => '16', 'green' => '16', 'blue' => '16']],
-                ['position' => [9, 7], 'couleur' => ['red' => '163', 'green' => '211', 'blue' => '243']],
+                ['position' => [8, 4], 'couleur' => ['red' => '22', 'green' => '22', 'blue' => '12']],
+                ['position' => [7, 6], 'couleur' => ['red' => '193', 'green' => '193', 'blue' => '193']],
+                ['position' => [13, 7], 'couleur' => ['red' => '111', 'green' => '111', 'blue' => '111']],
+                ['position' => [5, 8], 'couleur' => ['red' => '10', 'green' => '10', 'blue' => '10']],
+                ['position' => [12, 8], 'couleur' => ['red' => '159', 'green' => '159', 'blue' => '159']],
+                ['position' => [15, 8], 'couleur' => ['red' => '36', 'green' => '36', 'blue' => '36']],
+                ['position' => [8, 10], 'couleur' => ['red' => '13', 'green' => '13', 'blue' => '12']],
+                ['position' => [6, 11], 'couleur' => ['red' => '189', 'green' => '189', 'blue' => '189']],
+                ['position' => [4, 13], 'couleur' => ['red' => '8', 'green' => '8', 'blue' => '8']],
             ],
             // cyclone
             'cyclone' => [
-                ['position' => [5, 11], 'couleur' => ['red' => '255', 'green' => '255', 'blue' => '255']],
-                ['position' => [4, 5], 'couleur' => ['red' => '0', 'green' => '0', 'blue' => '0']],
-                ['position' => [8, 0], 'couleur' => ['red' => '71', 'green' => '71', 'blue' => '71']],
-                ['position' => [1, 21], 'couleur' => ['red' => '90', 'green' => '90', 'blue' => '90']],
-                ['position' => [5, 17], 'couleur' => ['red' => '0', 'green' => '0', 'blue' => '0']],
+                ['position' => [7, 5], 'couleur' => ['red' => '20', 'green' => '20', 'blue' => '0']],
+                ['position' => [6, 7], 'couleur' => ['red' => '0', 'green' => '0', 'blue' => '0']],
+                ['position' => [6, 12], 'couleur' => ['red' => '255', 'green' => '255', 'blue' => '255']],
+                ['position' => [7, 16], 'couleur' => ['red' => '16', 'green' => '16', 'blue' => '16']],
+                ['position' => [6, 18], 'couleur' => ['red' => '2', 'green' => '2', 'blue' => '0']],
             ],
         ];
     }
