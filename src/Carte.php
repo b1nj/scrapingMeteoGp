@@ -15,7 +15,7 @@ class Carte
     protected $gd_resource;
     protected $http_response_header;
 
-    const URL = 'http://www.meteofrance.gp/integration/sim-portail/generated/integration/img/vigilance/fr_99.gif';
+    const URL = 'https://rpcache-aa.meteofrance.com/internet2018client/2.0/report?domain=VIGI972&report_type=vigilance&report_subtype=version%20PDF&token=__Wj7dVSTjV9YGu1guveLyDq0g7S7TfTjaHBTPTpO0kj8__';
 
     /**
      * Carte constructor.
